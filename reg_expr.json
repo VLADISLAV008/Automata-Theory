@@ -1,0 +1,71 @@
+{
+  "key": ".",
+  "val": {
+    "fst": {
+      "key": ".",
+      "val": {
+        "fst": {
+          "key": "*",
+          "val": {
+            "key": "|",
+            "val": {
+              "fst": {
+                "key": "atm",
+                "val": "a"
+              },
+              "snd": {
+                "key": "*",
+                "val": {
+                  "key": "atm",
+                  "val": "b"
+                }
+              }
+            }
+          }
+        },
+        "snd": {
+          "key": "|",
+          "val": {
+            "fst": {
+              "key": ".",
+              "val": {
+                "fst": {
+                  "key": "*",
+                  "val": {
+                    "key": "atm",
+                    "val": "d"
+                  }
+                },
+                "snd": {
+                  "key": "atm",
+                  "val": "e"
+                }
+              }
+            },
+            "snd": {
+              "key": "atm",
+              "val": "c"
+            }
+          }
+        }
+      }
+    },
+    "snd": {
+      "key": "*",
+      "val": {
+        "key": "|",
+        "val": {
+          "fst": {
+            "key": "atm",
+            "val": "b"
+          },
+          "snd": {
+            "key": "atm",
+            "val": "a"
+          }
+        }
+      }
+    }
+  }
+}
+
